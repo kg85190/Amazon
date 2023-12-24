@@ -1,7 +1,14 @@
 header{
-  height: 99px;
   border: 1px dashed red;
   background-color: #131921;
+}
+.a_header_top{
+  height: 60px;
+  border: 1px dashed green;
+}
+.a_header_bottom{
+  height: 39px;
+  border: 1px dashed pink;
 }
 
 .a_main{
@@ -9,9 +16,24 @@ height: 4818px;
 border: 1px dashed blue ;
 background: #eaeded;
 }
+.a_main1{
+  height: 600px;
+  border: 1px dashed orange;
+  
+  
+}
 
+.a_main2{
+      height: 422px;
+      border: 2px dashed black;
+      z-index: 3;
+      top: 260px;
+      left: 0px;
+
+}
 footer{
   height: 227px;
   border: 1px dashed green;
   background: #131921;
+
 }
