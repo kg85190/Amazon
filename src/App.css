@@ -1,0 +1,17 @@
+header{
+  height: 99px;
+  border: 1px dashed red;
+  background-color: #131921;
+}
+
+.a_main{
+height: 4818px;
+border: 1px dashed blue ;
+background: #eaeded;
+}
+
+footer{
+  height: 227px;
+  border: 1px dashed green;
+  background: #131921;
+}
