@@ -1,4 +1,3 @@
-
 import './App.css';
 
 function App() {
@@ -7,13 +6,13 @@ function App() {
       <header>
         <div className='a_header_top'></div>
         <div className='a_header_bottom'></div>
-
       </header>
       <div className='a_main position-relative'>
-        <div className='a_main1'>
-        <div id="carouselExample" class="carousel slide">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
+        <div className='a_main1 a_main_top'>
+          
+        <div id="carouselExample" className="carousel slide">
+          <div className="carousel-inner">
+          <div className="carousel-item active">
       <img src="./Images/slider/1.jpg" class="d-block w-100 " alt="..."/>
     </div>
     <div className="carousel-item">
@@ -37,24 +36,45 @@ function App() {
     <div class="carousel-item">
       <img src="./Images/slider/8.jpg" class="d-block w-100" alt="..."/>
     </div>
-  </div>
-  <button className="carousel-control-prev h-50" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next h-50" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
+
+          </div>
+          <button className="carousel-control-prev h-50" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next h-50" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+
         </div>
-           <div className='a_main2 w-100 position-absolute top-1 start-10'>
-             
-           </div>
+        
+        </div>
+        
+        <div className=' ml-1 position-absolute a_main_bottom'>
+
+        <div className='a_main_bottom_1 row m-0 mb-3'>
+        <div className='col'>a</div>
+        <div className='col'>b</div>
+        <div className='col'>c</div>
+        <div className='col'>d</div>
+        </div>
+
+          <div className='a_main_bottom_2 row m-0 mb-3'>
+               <div className='col-6'>a</div>
+               <div className='col-3'>b</div>
+               <div className='col-3'>c</div>
+          </div>
+
+         <div className='a_main_bottom_3'>
+
+         </div>
+
+        </div>
+
       </div>
       <footer></footer>
     </div>
-      
   );
 }
 

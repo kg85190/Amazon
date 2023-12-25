@@ -23,14 +23,40 @@ background: #eaeded;
   
 }
 
-.a_main2{
-      height: 422px;
+.a_main_bottom{
+      height: 4564px;
       border: 2px dashed black;
-      z-index: 3;
-      top: 260px;
-      left: 0px;
+      background: red;
+      top: 253px;
+      left: 20px;
+      width: 97%;
+      
 
 }
+.a_main_bottom_1{
+  border: 1px dashed blueviolet;
+
+}
+.a_main_bottom_1 > div{
+  height: 423px;
+  border: 1px dashed greenyellow;
+}
+
+.a_main_bottom_2{
+  
+  border: 1px dashed black;
+}
+
+.a_main_bottom_2 > div{
+  height: 428px;
+  border: 1px dashed black;
+}
+
+.a_main_bottom_3{
+  height: 367px;
+  background: pink;
+}
+
 footer{
   height: 227px;
   border: 1px dashed green;
