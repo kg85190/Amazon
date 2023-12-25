@@ -57,6 +57,21 @@ background: #eaeded;
   background: pink;
 }
 
+.imgCont{
+  height: 300px;
+  border: 1px dashed red;
+}
+
+.imgCont > div{
+  border: 1px dashed black;
+}
+#carouselExample2 .a_cc{
+  background-color: #fff;
+  width: 3%;
+  height:30%;
+  top: 145px;
+}
+
 footer{
   height: 227px;
   border: 1px dashed green;
