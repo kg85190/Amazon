@@ -1,10 +1,25 @@
 import './App.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 function App() {
   return (
     <div>
       <header>
-        <div className='a_header_top'></div>
+        <div className='a_header_top p-1'>
+          <button className=' me-1 btn  h-100'style={{'width':'10%'}}>
+              <img className='img-fluid' src="./logo2.png" />
+          </button>
+          <button className=' lh-1fs-6 text-white me-1 btn h-100' style={{'width':'10%'}}>
+            Deliver to Srk
+            <FontAwesomeIcon icon={faMapMarkerAlt } />
+           <span className='fw-bold d-block'>  <span className='a_city'>Indore</span> <span className='a_pincode'>452001</span></span>
+          </button>
+          <form className=' bg-white hform  w-50 h-75 d-inline-block'>C</form>
+          <button className='btn h-100'style={{'width':'4%'}}>G</button>
+          <button className='btn h-100' style={{'width':'8%'}}>E</button>
+          <button className='btn h-100'style={{'width':'8%'}}>F</button>
+          <button className='btn h-100'style={{'width':'8%'}}>G</button>
+        </div>
         <div className='a_header_bottom'></div>
       </header>
       <div className='a_main position-relative'>
