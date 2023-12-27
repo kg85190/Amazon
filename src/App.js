@@ -1,6 +1,6 @@
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+  import { faMapMarkerAlt,faBars } from '@fortawesome/free-solid-svg-icons'
 function App() {
   return (
     <div>
@@ -20,7 +20,59 @@ function App() {
           <button className='btn h-100'style={{'width':'8%'}}>F</button>
           <button className='btn h-100'style={{'width':'8%'}}>G</button>
         </div>
-        <div className='a_header_bottom'></div>
+        <div className='a_header_bottom'>
+        <ul className=" ms-2 nav float-start">
+  <li className="nav-item">
+    <a className="nav-link" aria-current="page" href="#"><FontAwesomeIcon className='fs-5'  icon={faBars}/> All</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Mobiles</a>
+  </li>
+  <li className="nav-item"> 
+    <a className="nav-link" href="#">Electronic</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Fashion</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">New Releases</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Customer Service</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Amazon Pay</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Computers</a>
+  </li>
+  </ul>
+
+<a className='hbanner float-end  '>
+  <img src="./Images/slider/banner.png"/>
+</a>
+
+  <ul className='nav float-start d-none'>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Home &amp; Kitchen</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Today's Deal</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Toys &amp; Games</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Books</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Sell</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Coupons</a>
+  </li>
+</ul>
+        </div>
       </header>
       <div className='a_main position-relative'>
         <div className='a_main1 a_main_top'>

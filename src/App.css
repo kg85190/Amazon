@@ -10,8 +10,22 @@ header{
   border: 1px solid white;
 }
 .a_header_bottom{
-  height: 39px;
+  height:39px;
   border: 1px dashed pink;
+}
+.a_header_bottom a{
+  /*TRBL*/
+  font-size: 15px;
+  color: #fff;
+  
+
+}
+.a_header_bottom a:hover{
+  outline: 1px solid white;
+  color: #fff;
+}
+.a_header_bottom a:active,.a_header_bottom a:focus-within{
+  color: white;
 }
 
 .a_main{
